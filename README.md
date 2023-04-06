@@ -1,2 +1,2 @@
-https://github.com/GertyPieters/cd/.github/workflows/run-tests.yml/badge.svg
+https://github.com/GertyPieters/cd//workflows/run-tests.yml/badge.svg
 
