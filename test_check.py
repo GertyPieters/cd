@@ -13,4 +13,4 @@ def test_index(client):
     response = client.get("/")
 
     assert response.status_code == 200
-    assert response.data == b"<p>Thuis, sweet home.</p>"
+    assert response.data == b"<p>Als t werkt dan werkt t!</p>"
