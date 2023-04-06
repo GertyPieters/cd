@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - name: SSH Remote Commands
-        uses: appleboy/ssh-action@v0.1.4
+        uses: appleboy/ssh-action@v0.1.9
         with:
           host: ${{ secrets.SSH_HOST }}
           key: ${{ secrets.SSH_KEY }}
