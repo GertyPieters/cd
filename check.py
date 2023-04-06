@@ -4,10 +4,10 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return 'Als t werkt dan werkt t!'
+    return '<p>Als t werkt dan werkt t!</p>'
 
 @app.route('/real')
 def real():
-    return 'En dan echt!'
+    return '<p>En dan echt!</p>'
 
   
