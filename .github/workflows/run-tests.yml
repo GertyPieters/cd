@@ -27,6 +27,6 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           username: ${{ secrets.SSH_USERNAME }}
           script: |
-            cd C:\Users\gerty\OneDrive\Documenten\Winc\hello-world\cd> 
+            cd /home/cd/cd
             git pull 
             systemctl restart nginx
