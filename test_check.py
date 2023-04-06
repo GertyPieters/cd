@@ -1,5 +1,16 @@
-import check
+import pytest
 
-def test_sum():
-    assert check.sum(2,2) == 4
-    assert check.sum(2,3) == 5
+from check import app
+
+
+@pytest.fixture
+def client():
+    client = app.test_client()
+    return client
+
+
+def test_index(client):
+    response = client.get("/")
+
+    assert response.status_code == 200
+    assert response.data == b"<p>Thuis, sweet home.</p>"
