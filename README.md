@@ -1,1 +1,2 @@
-https://github.com/GertyPieters/ssh-cd/workflows/remote%20ssh%20command/badge.svg
+https://github.com/GertyPieters/cd/.github/workflows/run-tests.yml/badge.svg
+
