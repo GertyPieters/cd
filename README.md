@@ -4,8 +4,7 @@ Name three components of your solution, explain what they are and how they relat
 Discuss three problems that you encountered along the way and how you solved them.
 (optional) Anything of note that you want to share about the process of solving this assignment.
 
-
-Components of my solution:
+## Components of my solution:
 1.
 
 2.
