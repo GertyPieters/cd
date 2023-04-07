@@ -6,7 +6,8 @@ Discuss three problems that you encountered along the way and how you solved the
 
 ## Components of my solution:
 ### 1. Digital Ocean:
-  For this assignment I had to create a VPS on Digital Ocean. Although this is something we did in a previous exercise, it was an important component of this solution. 
+  For this assignment I had to create a VPS on Digital Ocean. A VPS is a Virtual Private Server, which is called a droplet by Digital Ocean. This droplet is necessary to
+  create the continous deployment pipeline.  
   The droplet was easy to create, learning to work with the console involved some trial and error, but after a while I grew more familiar with it. To make everything
   work it involved some installing of programs like: nano, python, pip, flask, nginx, gunicorn, etc.  
   You can't (in a way) do something wrong with it, because it always tells you that you are doing something that can't be done or that you are doing it wrong. And to 
