@@ -27,7 +27,9 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           username: ${{ secrets.SSH_USERNAME }}
           script: |
-           ./deploy.sh
+            cd /home/cd
+            git pull 
+            systemctl restart cd
 
 
 
